@@ -1,18 +1,18 @@
 package com.Trees;
 
-public class BinaryTree {
+public class NormalTree {
 	
 	static BinaryTreeNode root;
 	
-	public BinaryTree() {
+	public NormalTree() {
 		
 		root=null;
 	}
 	public static void main(String[] args)
 	{
-		BinaryTree binaryTree=new BinaryTree();
+		NormalTree binaryTree=new NormalTree();
 		
-		BinaryTree.root=new BinaryTreeNode(1);
+		NormalTree.root=new BinaryTreeNode(1);
 		root.left=new BinaryTreeNode(2);
 		root.right=new BinaryTreeNode(3);
 		root.left.left=new BinaryTreeNode(4);
